@@ -27,5 +27,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     annotationProcessor 'com.uber.motif:motif-compiler:0.3.1'
+
+    testAnnotationProcessor 'com.uber.motif:motif-compiler:0.3.1'
+    testImplementation 'com.google.truth:truth:1.0.1'
     implementation 'com.uber.motif:motif:0.3.1'
 }
